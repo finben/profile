@@ -1,0 +1,11 @@
+h1 {
+  color: red;
+}
+
+p {
+  text-align: center;
+}
+
+#mainContainer {
+  border: 10px solid greenyellow;
+}
