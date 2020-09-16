@@ -6,6 +6,52 @@ p {
   text-align: center;
 }
 
-#mainContainer {
-  border: 10px solid greenyellow;
+body {
+  background-color: wheat;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* banner work */
+#banner-container {
+  height: 200px;
+  background-color: coral;
+  position: relative;
+  text-align: center;
+}
+
+#banner-text {
+  position: absolute;
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: xx-large;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* text formatting */
+#banner-special-text {
+  display: inline-block;
+  font-family: cursive;
+}
+
+/* LinkBar */
+#link-bar-container {
+  padding: 10px;
+}
+
+/* LinkBar */
+#link-bar {
+  position: absolute;
+  border-radius: 20px;
+  top: 80%;
+  left: 50%;
+  height: 20px;
+  width: 150px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  transform: translate(-50%, -50%);
 }
